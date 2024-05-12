@@ -1,0 +1,54 @@
+:root
+{
+    --golden_rod: #daa520;
+    --khaki: #f0e68c;
+    --wheat: #f5deb3;
+    --grey: #0f0f0f;
+}
+
+h1 {
+    font-family: monospace, consolas;
+    font-size: 100px;
+    text-align: center;
+    color: var(--khaki);
+}
+
+body
+{
+    background: var(--grey)
+}
+.h-2
+{
+    font-family: monospace, console;
+    font-size: 30px;
+    text-align: center;
+    color: var(--golden_rod);
+}
+
+#ekko_img
+{
+    display: block;
+    margin: auto;
+    border-radius: 50px;
+}
+
+#biography
+{
+    font-family: monospace, console;
+    font-size: 22px;
+    text-align: center;
+    color: var(--wheat);
+    margin: auto;
+}
+
+#li-skills
+{
+    margin: auto;
+    text-align: justify;
+    text-decoration: underline;
+}
+
+#skills_img
+{
+    border-radius: 10px;
+}
